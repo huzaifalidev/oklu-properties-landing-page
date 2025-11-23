@@ -5,7 +5,7 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-[#03213d] mb-6 leading-tight">
-              Your guide to Dubai's top real estate hotspots
+              Your guide to United Kingdom's top real estate hotspots
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Backed by local connections and developer access, we make investing in properties smoother and more
