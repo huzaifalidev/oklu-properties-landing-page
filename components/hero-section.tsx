@@ -24,7 +24,7 @@ export default function HeroSection({ setActiveSection }: HeroSectionProps) {
       className="min-h-screen w-full relative flex items-center justify-center pt-16"
       style={{
         backgroundImage:
-          "linear-gradient(135deg, rgba(213, 168, 111, 0.15) 0%, rgba(3, 33, 61, 0.2) 100%), url(/placeholder.svg?height=1080&width=1920&query=luxury%20dubai%20skyline%20aerial)",
+          "linear-gradient(135deg, rgba(213, 168, 111, 0.15) 0%, rgba(3, 33, 61, 0.2) 100%), url(/bg.jpg?height=1080&width=1920&query=luxury%20dubai%20skyline%20aerial)",
         backgroundAttachment: "fixed",
         backgroundSize: "cover",
         backgroundPosition: "center",
