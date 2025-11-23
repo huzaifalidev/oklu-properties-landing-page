@@ -62,7 +62,7 @@ export default function HeroSection({ setActiveSection }: HeroSectionProps) {
         </div>
 
         {/* Search Bar */}
-        <div className="mt-12 bg-white/95 backdrop-blur rounded-2xl p-6 shadow-xl">
+        {/* <div className="mt-12 bg-white/95 backdrop-blur rounded-2xl p-6 shadow-xl">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">Location</label>
@@ -98,7 +98,7 @@ export default function HeroSection({ setActiveSection }: HeroSectionProps) {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

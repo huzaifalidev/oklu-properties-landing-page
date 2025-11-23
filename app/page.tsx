@@ -14,13 +14,14 @@ export default function Home() {
   const [activeSection, setActiveSection] = useState("home")
 
   return (
+
     <main className="bg-[#FFFFF0] text-[#03213d] font-sans">
       <Navigation activeSection={activeSection} setActiveSection={setActiveSection} />
       <HeroSection setActiveSection={setActiveSection} />
       <AboutSection />
       <InvestorsSection />
-      <VendorsSection />
-      <TestimonialsSection />
+      {/* <VendorsSection /> */}
+      <TestimonialsSection   />
       <ContactSection />
       <WhatsAppButton />
     </main>
